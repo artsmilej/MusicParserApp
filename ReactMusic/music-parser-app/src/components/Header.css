@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1c1c1e;
+  color: #fff;
+  padding: 10px 20px;
+  border-bottom: 2px solid #333; /* Відділяє хедер від основного контенту */
+  position: relative;
+  z-index: 1; /* Забезпечує, що хедер буде поверх сайдбара */
+}
+
+.menu-icon {
+  cursor: pointer;
+  font-size: 24px;
+  color: #fff;
+  margin-right: 15px; /* Додає відступ праворуч від іконки меню */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 15px; /* Додає відступ ліворуч від логотипа */
+}
+
+.genres {
+  display: flex;
+  gap: 15px;
+  justify-content: center; /* Центрує жанри */
+  flex: 1;
+}
+
+.genre-button {
+  background-color: #333;
+  border: 1px solid #555;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.genre-button:hover {
+  background-color: #444;
+  color: #f39c12;
+}
